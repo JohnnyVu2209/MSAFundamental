@@ -1,0 +1,138 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/johnnyv/MSA/src/MSA.Common.Mongo/MSA.Common.Mongo.csproj": {}
+  },
+  "projects": {
+    "/home/johnnyv/MSA/src/MSA.Common.Contracts/MSA.Common.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/johnnyv/MSA/src/MSA.Common.Contracts/MSA.Common.Contracts.csproj",
+        "projectName": "MSA.Common.Contracts",
+        "projectPath": "/home/johnnyv/MSA/src/MSA.Common.Contracts/MSA.Common.Contracts.csproj",
+        "packagesPath": "/home/johnnyv/.nuget/packages/",
+        "outputPath": "/home/johnnyv/MSA/src/MSA.Common.Contracts/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/johnnyv/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.403/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/johnnyv/MSA/src/MSA.Common.Mongo/MSA.Common.Mongo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/johnnyv/MSA/src/MSA.Common.Mongo/MSA.Common.Mongo.csproj",
+        "projectName": "MSA.Common.Mongo",
+        "projectPath": "/home/johnnyv/MSA/src/MSA.Common.Mongo/MSA.Common.Mongo.csproj",
+        "packagesPath": "/home/johnnyv/.nuget/packages/",
+        "outputPath": "/home/johnnyv/MSA/src/MSA.Common.Mongo/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/johnnyv/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/home/johnnyv/MSA/src/MSA.Common.Contracts/MSA.Common.Contracts.csproj": {
+                "projectPath": "/home/johnnyv/MSA/src/MSA.Common.Contracts/MSA.Common.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.22.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.403/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
