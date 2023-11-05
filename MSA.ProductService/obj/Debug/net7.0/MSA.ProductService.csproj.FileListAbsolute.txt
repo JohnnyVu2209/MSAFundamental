@@ -67,3 +67,12 @@
 /home/johnnyv/MSA/src/MSA.ProductService/bin/Debug/net7.0/RabbitMQ.Client.dll
 /home/johnnyv/MSA/src/MSA.ProductService/bin/Debug/net7.0/MSA.Common.PostgresMassTransit.dll
 /home/johnnyv/MSA/src/MSA.ProductService/bin/Debug/net7.0/MSA.Common.PostgresMassTransit.pdb
+/home/johnnyv/MSA/src/MSA.ProductService/bin/Debug/net7.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/home/johnnyv/MSA/src/MSA.ProductService/bin/Debug/net7.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/home/johnnyv/MSA/src/MSA.ProductService/bin/Debug/net7.0/Microsoft.IdentityModel.Logging.dll
+/home/johnnyv/MSA/src/MSA.ProductService/bin/Debug/net7.0/Microsoft.IdentityModel.Protocols.dll
+/home/johnnyv/MSA/src/MSA.ProductService/bin/Debug/net7.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/home/johnnyv/MSA/src/MSA.ProductService/bin/Debug/net7.0/Microsoft.IdentityModel.Tokens.dll
+/home/johnnyv/MSA/src/MSA.ProductService/bin/Debug/net7.0/System.IdentityModel.Tokens.Jwt.dll
+/home/johnnyv/MSA/src/MSA.ProductService/bin/Debug/net7.0/MSA.Common.Security.dll
+/home/johnnyv/MSA/src/MSA.ProductService/bin/Debug/net7.0/MSA.Common.Security.pdb

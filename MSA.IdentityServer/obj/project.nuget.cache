@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "dgSpecHash": "CxnZ7oNUr9v1YnEzVQWBvA9Pv9O4PFx0MchP7kajuHDjte4nyg0IoUBrOWdQfckn6jZQJKSgmAgBPf3KRUTPQQ==",
+  "success": true,
+  "projectFilePath": "/home/johnnyv/MSA/src/MSA.IdentityServer/MSA.IdentityServer.csproj",
+  "expectedPackageFiles": [
+    "/home/johnnyv/.nuget/packages/duende.identityserver/6.3.6/duende.identityserver.6.3.6.nupkg.sha512",
+    "/home/johnnyv/.nuget/packages/duende.identityserver.storage/6.3.6/duende.identityserver.storage.6.3.6.nupkg.sha512",
+    "/home/johnnyv/.nuget/packages/identitymodel/6.1.0/identitymodel.6.1.0.nupkg.sha512",
+    "/home/johnnyv/.nuget/packages/microsoft.aspnetcore.authentication.openidconnect/7.0.0/microsoft.aspnetcore.authentication.openidconnect.7.0.0.nupkg.sha512",
+    "/home/johnnyv/.nuget/packages/microsoft.aspnetcore.dataprotection.abstractions/7.0.0/microsoft.aspnetcore.dataprotection.abstractions.7.0.0.nupkg.sha512",
+    "/home/johnnyv/.nuget/packages/microsoft.aspnetcore.openapi/7.0.13/microsoft.aspnetcore.openapi.7.0.13.nupkg.sha512",
+    "/home/johnnyv/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
+    "/home/johnnyv/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/home/johnnyv/.nuget/packages/microsoft.identitymodel.jsonwebtokens/6.15.1/microsoft.identitymodel.jsonwebtokens.6.15.1.nupkg.sha512",
+    "/home/johnnyv/.nuget/packages/microsoft.identitymodel.logging/6.15.1/microsoft.identitymodel.logging.6.15.1.nupkg.sha512",
+    "/home/johnnyv/.nuget/packages/microsoft.identitymodel.protocols/6.15.1/microsoft.identitymodel.protocols.6.15.1.nupkg.sha512",
+    "/home/johnnyv/.nuget/packages/microsoft.identitymodel.protocols.openidconnect/6.15.1/microsoft.identitymodel.protocols.openidconnect.6.15.1.nupkg.sha512",
+    "/home/johnnyv/.nuget/packages/microsoft.identitymodel.tokens/6.15.1/microsoft.identitymodel.tokens.6.15.1.nupkg.sha512",
+    "/home/johnnyv/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",
+    "/home/johnnyv/.nuget/packages/swashbuckle.aspnetcore/6.5.0/swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "/home/johnnyv/.nuget/packages/swashbuckle.aspnetcore.swagger/6.5.0/swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "/home/johnnyv/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.5.0/swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "/home/johnnyv/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.5.0/swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",
+    "/home/johnnyv/.nuget/packages/system.identitymodel.tokens.jwt/6.15.1/system.identitymodel.tokens.jwt.6.15.1.nupkg.sha512",
+    "/home/johnnyv/.nuget/packages/system.security.cryptography.cng/4.5.0/system.security.cryptography.cng.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

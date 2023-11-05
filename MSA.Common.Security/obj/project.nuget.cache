@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "dgSpecHash": "oiDvnz63NcSqo2eoQrIkiPafXDg69jBNjhFyv2mC46HovmvcWkHBCkZJWaWyaTAc6tNWXQbkOAxjX5Gd7OqoDQ==",
+  "success": true,
+  "projectFilePath": "/home/johnnyv/MSA/src/MSA.Common.Security/MSA.Common.Security.csproj",
+  "expectedPackageFiles": [
+    "/home/johnnyv/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/7.0.13/microsoft.aspnetcore.authentication.jwtbearer.7.0.13.nupkg.sha512",
+    "/home/johnnyv/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
+    "/home/johnnyv/.nuget/packages/microsoft.extensions.configuration/7.0.0/microsoft.extensions.configuration.7.0.0.nupkg.sha512",
+    "/home/johnnyv/.nuget/packages/microsoft.extensions.configuration.abstractions/7.0.0/microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
+    "/home/johnnyv/.nuget/packages/microsoft.extensions.configuration.binder/7.0.4/microsoft.extensions.configuration.binder.7.0.4.nupkg.sha512",
+    "/home/johnnyv/.nuget/packages/microsoft.extensions.dependencyinjection/7.0.0/microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "/home/johnnyv/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0/microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "/home/johnnyv/.nuget/packages/microsoft.extensions.primitives/7.0.0/microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "/home/johnnyv/.nuget/packages/microsoft.identitymodel.jsonwebtokens/6.15.1/microsoft.identitymodel.jsonwebtokens.6.15.1.nupkg.sha512",
+    "/home/johnnyv/.nuget/packages/microsoft.identitymodel.logging/6.15.1/microsoft.identitymodel.logging.6.15.1.nupkg.sha512",
+    "/home/johnnyv/.nuget/packages/microsoft.identitymodel.protocols/6.15.1/microsoft.identitymodel.protocols.6.15.1.nupkg.sha512",
+    "/home/johnnyv/.nuget/packages/microsoft.identitymodel.protocols.openidconnect/6.15.1/microsoft.identitymodel.protocols.openidconnect.6.15.1.nupkg.sha512",
+    "/home/johnnyv/.nuget/packages/microsoft.identitymodel.tokens/6.15.1/microsoft.identitymodel.tokens.6.15.1.nupkg.sha512",
+    "/home/johnnyv/.nuget/packages/system.identitymodel.tokens.jwt/6.15.1/system.identitymodel.tokens.jwt.6.15.1.nupkg.sha512",
+    "/home/johnnyv/.nuget/packages/system.security.cryptography.cng/4.5.0/system.security.cryptography.cng.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,15 @@
+/home/johnnyv/MSA/src/MSA.Common.Security/bin/Debug/net7.0/MSA.Common.Security.deps.json
+/home/johnnyv/MSA/src/MSA.Common.Security/bin/Debug/net7.0/MSA.Common.Security.dll
+/home/johnnyv/MSA/src/MSA.Common.Security/bin/Debug/net7.0/MSA.Common.Security.pdb
+/home/johnnyv/MSA/src/MSA.Common.Security/bin/Debug/net7.0/MSA.Common.Contracts.dll
+/home/johnnyv/MSA/src/MSA.Common.Security/bin/Debug/net7.0/MSA.Common.Contracts.pdb
+/home/johnnyv/MSA/src/MSA.Common.Security/obj/Debug/net7.0/MSA.Common.Security.csproj.AssemblyReference.cache
+/home/johnnyv/MSA/src/MSA.Common.Security/obj/Debug/net7.0/MSA.Common.Security.GeneratedMSBuildEditorConfig.editorconfig
+/home/johnnyv/MSA/src/MSA.Common.Security/obj/Debug/net7.0/MSA.Common.Security.AssemblyInfoInputs.cache
+/home/johnnyv/MSA/src/MSA.Common.Security/obj/Debug/net7.0/MSA.Common.Security.AssemblyInfo.cs
+/home/johnnyv/MSA/src/MSA.Common.Security/obj/Debug/net7.0/MSA.Common.Security.csproj.CoreCompileInputs.cache
+/home/johnnyv/MSA/src/MSA.Common.Security/obj/Debug/net7.0/MSA.Common.Security.csproj.CopyComplete
+/home/johnnyv/MSA/src/MSA.Common.Security/obj/Debug/net7.0/MSA.Common.Security.dll
+/home/johnnyv/MSA/src/MSA.Common.Security/obj/Debug/net7.0/refint/MSA.Common.Security.dll
+/home/johnnyv/MSA/src/MSA.Common.Security/obj/Debug/net7.0/MSA.Common.Security.pdb
+/home/johnnyv/MSA/src/MSA.Common.Security/obj/Debug/net7.0/ref/MSA.Common.Security.dll

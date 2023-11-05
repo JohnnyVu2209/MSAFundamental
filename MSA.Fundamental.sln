@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSA.ProductService", "MSA.P
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSA.OrderService", "MSA.OrderService\MSA.OrderService.csproj", "{BCEBE048-F0CF-4B0D-A3AC-BD48FC8A8D2C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSA.Common.Security", "MSA.Common.Security\MSA.Common.Security.csproj", "{0A3DE18C-E901-4948-B73B-8725BAE12BC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSA.IdentityServer", "MSA.IdentityServer\MSA.IdentityServer.csproj", "{3481D5AC-37AE-422A-BF09-3BB740FDE350}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +46,13 @@ Global
 		{BCEBE048-F0CF-4B0D-A3AC-BD48FC8A8D2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BCEBE048-F0CF-4B0D-A3AC-BD48FC8A8D2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BCEBE048-F0CF-4B0D-A3AC-BD48FC8A8D2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A3DE18C-E901-4948-B73B-8725BAE12BC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A3DE18C-E901-4948-B73B-8725BAE12BC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A3DE18C-E901-4948-B73B-8725BAE12BC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A3DE18C-E901-4948-B73B-8725BAE12BC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3481D5AC-37AE-422A-BF09-3BB740FDE350}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3481D5AC-37AE-422A-BF09-3BB740FDE350}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3481D5AC-37AE-422A-BF09-3BB740FDE350}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3481D5AC-37AE-422A-BF09-3BB740FDE350}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
