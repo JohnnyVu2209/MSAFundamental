@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "bhbHA13a6FX3w9I5EhMNfo5qtYzGG4I8XxZG9LmShCg=",
+  "Source": "MSA.BankService",
+  "BasePath": "_content/MSA.BankService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

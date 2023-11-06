@@ -18,6 +18,8 @@ namespace MSA.IdentityService.DummyData
                 new ApiScope("productapi.write"),
                 new ApiScope("orderapi.read"),
                 new ApiScope("orderapi.write"),
+                new ApiScope("bankapi.read"),
+                new ApiScope("bankapi.write")
             };
 
         public static IEnumerable<ApiResource> ApiResources => new[]
@@ -31,6 +33,12 @@ namespace MSA.IdentityService.DummyData
             new ApiResource("orderapi")
             {
                 Scopes = new List<string> {"orderapi.read", "orderapi.write"},
+                ApiSecrets = new List<Secret> { new Secret("Scopesecret".Sha256())},
+                UserClaims = new List<string> {"role"}
+            },
+            new ApiResource("bankapi")
+            {
+                Scopes = new List<string> {"bankapi.read", "bankapi.write"},
                 ApiSecrets = new List<Secret> { new Secret("Scopesecret".Sha256())},
                 UserClaims = new List<string> {"role"}
             }
@@ -52,7 +60,9 @@ namespace MSA.IdentityService.DummyData
                         "productapi.read", 
                         "productapi.write",
                         "orderapi.read",
-                        "orderapi.write" 
+                        "orderapi.write" ,
+                        "bankapi.read",
+                        "bankapi.write" ,
                     }
                 },
 
@@ -86,6 +96,38 @@ namespace MSA.IdentityService.DummyData
 
                     AllowOfflineAccess = true,
                     AllowedScopes = { "openid", "profile", "productapi.read", "productapi.write" }
+                },
+
+                 // interactive client using code flow + pkce
+                new Client
+                {
+                    ClientId = "interactive",
+                    ClientSecrets = { new Secret("49C1A7E1-0C79-4A89-A3D6-A37998FB86B0".Sha256()) },
+
+                    AllowedGrantTypes = GrantTypes.Code,
+
+                    RedirectUris = { "https://localhost:5004/signin-oidc" },
+                    FrontChannelLogoutUri = "https://localhost:5004/signout-oidc",
+                    PostLogoutRedirectUris = { "https://localhost:5004/signout-callback-oidc" },
+
+                    AllowOfflineAccess = true,
+                    AllowedScopes = { "openid", "profile", "bankapi.read", "bankapi.write" }
+                },
+
+                // bank-swagger client using code flow + pkce
+                new Client
+                {
+                    ClientId = "bank-swagger",
+                    RequireClientSecret = false,
+
+                    AllowedGrantTypes = GrantTypes.Code,
+                    RequirePkce = false,
+
+                    RedirectUris = { "https://localhost:5004/swagger/oauth2-redirect.html" },
+                    AllowedCorsOrigins = { "https://localhost:5004" },
+
+                    AllowOfflineAccess = true,
+                    AllowedScopes = { "openid", "profile", "bankapi.read", "bankapi.write" }
                 }
             };
     }

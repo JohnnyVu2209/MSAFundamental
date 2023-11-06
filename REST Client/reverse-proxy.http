@@ -32,3 +32,15 @@ Content-Type: application/json
   "description": "Shirt",
   "price": 2
 }
+
+
+###
+POST https://{{host}}/bank-api/v1/account
+Authorization: bearer {{token}}
+Accept: text/plain
+Content-Type: application/json
+
+{
+  "customerId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+  "accountBalance": 10
+}

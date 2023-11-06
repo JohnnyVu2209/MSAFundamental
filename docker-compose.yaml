@@ -103,6 +103,29 @@ services:
     networks:
       - msa-network
 
+  bank-service:
+    image: bank-service:latest
+    build:
+      context: .
+      dockerfile: ./MSA.BankService/Dockerfile
+    depends_on:
+      - postgresql
+    environment:
+      - DATABASE_URL=postgresql://guest:guest@postgres:5432/msapostgres
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=https://+:5004
+      - ServiceUrlsSetting__IdentityServiceUrl=https://identity-service:5001
+      - Kestrel__Certificates__Default__Password=MsaFundamental
+      - Kestrel__Certificates__Default__Path=https/localhost.pfx
+    volumes:
+      - ./aspnet/https:/app/https:ro
+      - /usr/local/share/ca-certificates:/usr/local/share/ca-certificates
+      - /etc/ssl/certs:/etc/ssl/certs
+    ports:
+      - "5004:5004"
+    restart: always
+    networks:
+      - msa-network
 volumes:
   mongodbdata:
   rabbitmqdata:
